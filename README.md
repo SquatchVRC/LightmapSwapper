@@ -11,7 +11,9 @@ This package contains scripts and prefabs that allow for dynamic switching of ba
    
 5. For each "LightmapHolder", add the lightmaps associated with the respective lighting. ![Setting Lightmaps](https://github.com/SquatchVRC/LightmapSwapper/blob/main/images/SettingLightmaps.png)
    
-6. In "LightmapManager", set the ```Light Map Holders``` array length to the number of lightmap holders you have, then drag the holders into the array. Note the order the holders are in the array is the order they will cycle through. ![Assign the LightmapHolders](https://github.com/SquatchVRC/LightmapSwapper/blob/main/images/AssigningLightmaps.png)
+6. In "LightmapManager", set the ```Light Map Holders``` array length to the number of lightmap holders you have, then drag the holders into the array. Note the order the holders are in the array is the order they will cycle through.
+  
+![Assign the LightmapHolders](https://github.com/SquatchVRC/LightmapSwapper/blob/main/images/AssigningLightmaps.png)
    
 7. If you would like to use the included lightswitch, in the ```Prefabs``` folder add the "Lightswitch" prefab to your scene.
     
