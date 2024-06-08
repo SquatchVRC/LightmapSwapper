@@ -25,7 +25,9 @@ This package contains scripts and prefabs that allow for dynamic switching of ba
 
 ![Setting up reflection probe properties](https://github.com/SquatchVRC/LightmapSwapper/blob/main/images/ProbeSetup.png)
     
-10. On the "LightmapManager" object, click the button in the Inspector to populate renderers and reflection probes. This grabs any object with a mesh renderer with the ```Contribute GI``` static flag enabled and any active reflection probes set to realtime. ![Populating the manager](https://github.com/SquatchVRC/LightmapSwapper/blob/main/images/ManagerPopulate.png)
+10. On the "LightmapManager" object, click the button in the Inspector to populate renderers and reflection probes. This grabs any object with a mesh renderer with the ```Contribute GI``` static flag enabled and any active reflection probes set to realtime.
+   
+![Populating the manager](https://github.com/SquatchVRC/LightmapSwapper/blob/main/images/ManagerPopulate.png)
 
 ## Implementing your own Lightswitch
 If you would rather not use the included lightswitch, you can trigger the swapping function by calling `Apply()` on the LightmapManager script.
