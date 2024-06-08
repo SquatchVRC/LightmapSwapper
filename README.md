@@ -1,5 +1,12 @@
 # LightmapSwapper
 This package contains scripts and prefabs that allow for dynamic switching of baked lightmaps and reflection probes during runtime for VRChat worlds. Built for SDK 3.0 and Unity 2022.
+
+## Features
+- Cycle between any number of lighting scenarios by swapping baked lightmaps
+- Re-baking of reflection probes upon swapping
+- An included light switch intended to swap between two lighting scenarios.
+  - Light switch features standard desktop interaction as well as VR touch control, animations, and sounds
+    
 ## Install Guide
 1. Download and import the .unitypackage found in the [release](https://github.com/SquatchVRC/LightmapSwapper/releases/tag/Release) tab.
    
