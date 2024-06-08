@@ -21,7 +21,9 @@ This package contains scripts and prefabs that allow for dynamic switching of ba
   
 ![Assigning the manager on both objects](https://github.com/SquatchVRC/LightmapSwapper/blob/main/images/PCSwitchManager.png) ![Assigning the manager on both objects](https://github.com/SquatchVRC/LightmapSwapper/blob/main/images/VRSwitchManager.png)
     
-9. Setup your Reflection Probes. Any reflection probe that you would like to be updated must be set to ```Type: Realtime```, ```Refresh Mode: Via scripting```, ```Time Slicing: Individual Faces```, and set the ```Culling Mask``` to "Default". ![Setting up reflection probe properties](https://github.com/SquatchVRC/LightmapSwapper/blob/main/images/ProbeSetup.png)
+9. Setup your Reflection Probes. Any reflection probe that you would like to be updated must be set to ```Type: Realtime```, ```Refresh Mode: Via scripting```, ```Time Slicing: Individual Faces```, and set the ```Culling Mask``` to "Default".
+
+![Setting up reflection probe properties](https://github.com/SquatchVRC/LightmapSwapper/blob/main/images/ProbeSetup.png)
     
 10. On the "LightmapManager" object, click the button in the Inspector to populate renderers and reflection probes. This grabs any object with a mesh renderer with the ```Contribute GI``` static flag enabled and any active reflection probes set to realtime. ![Populating the manager](https://github.com/SquatchVRC/LightmapSwapper/blob/main/images/ManagerPopulate.png)
 
